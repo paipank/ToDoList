@@ -1,0 +1,1147 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component Adds a new task 1`] = `
+<div
+  class="w-full flex justify-center mt-10"
+>
+  <div
+    class="container"
+  >
+    <div
+      class="ant-row css-dev-only-do-not-override-17seli4"
+      style="margin-left: -10px; margin-right: -10px;"
+    >
+      <div
+        class="ant-col ant-col-24 css-dev-only-do-not-override-17seli4"
+        style="padding-left: 10px; padding-right: 10px;"
+      >
+        <div
+          class="ant-card ant-card-type-inner css-dev-only-do-not-override-17seli4"
+        >
+          <div
+            class="ant-card-head"
+          >
+            <div
+              class="ant-card-head-wrapper"
+            >
+              <div
+                class="ant-card-head-title"
+              >
+                Create New Task
+              </div>
+            </div>
+          </div>
+          <div
+            class="ant-card-body"
+          >
+            <div
+              class="grid grid-cols-1 gap-2 mx-5 sm:mx-0"
+            >
+              <div
+                class="space-y-2"
+              >
+                <h1>
+                  Due Date
+                </h1>
+                <div
+                  class="ant-picker ant-picker-outlined css-dev-only-do-not-override-17seli4 w-full"
+                >
+                  <div
+                    class="ant-picker-input"
+                  >
+                    <input
+                      aria-invalid="false"
+                      autocomplete="off"
+                      placeholder="Select date"
+                      size="12"
+                      value="2024-06-01"
+                    />
+                    <span
+                      class="ant-picker-suffix"
+                    >
+                      <span
+                        aria-label="calendar"
+                        class="anticon anticon-calendar"
+                        role="img"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          data-icon="calendar"
+                          fill="currentColor"
+                          focusable="false"
+                          height="1em"
+                          viewBox="64 64 896 896"
+                          width="1em"
+                        >
+                          <path
+                            d="M880 184H712v-64c0-4.4-3.6-8-8-8h-56c-4.4 0-8 3.6-8 8v64H384v-64c0-4.4-3.6-8-8-8h-56c-4.4 0-8 3.6-8 8v64H144c-17.7 0-32 14.3-32 32v664c0 17.7 14.3 32 32 32h736c17.7 0 32-14.3 32-32V216c0-17.7-14.3-32-32-32zm-40 656H184V460h656v380zM184 392V256h128v48c0 4.4 3.6 8 8 8h56c4.4 0 8-3.6 8-8v-48h256v48c0 4.4 3.6 8 8 8h56c4.4 0 8-3.6 8-8v-48h128v136H184z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <span
+                class="text-sm text-red-500 italic"
+              >
+                * reqiure
+              </span>
+              <div
+                class="space-y-2"
+              >
+                <h1>
+                  Description
+                </h1>
+                <textarea
+                  class="ant-input css-dev-only-do-not-override-17seli4 ant-input-outlined"
+                  placeholder="Description"
+                  rows="4"
+                >
+                  Task description
+                </textarea>
+              </div>
+              <span />
+              <div>
+                <button
+                  class="ant-btn css-dev-only-do-not-override-17seli4 ant-btn-primary"
+                  type="button"
+                >
+                  <span
+                    class="ant-btn-icon"
+                  >
+                    <span
+                      aria-label="plus"
+                      class="anticon anticon-plus"
+                      role="img"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        data-icon="plus"
+                        fill="currentColor"
+                        focusable="false"
+                        height="1em"
+                        viewBox="64 64 896 896"
+                        width="1em"
+                      >
+                        <path
+                          d="M482 152h60q8 0 8 8v704q0 8-8 8h-60q-8 0-8-8V160q0-8 8-8z"
+                        />
+                        <path
+                          d="M192 474h672q8 0 8 8v60q0 8-8 8H160q-8 0-8-8v-60q0-8 8-8z"
+                        />
+                      </svg>
+                    </span>
+                  </span>
+                  <span>
+                    Create
+                  </span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="mt-5 mx-5 sm:mx-0"
+    >
+      <div
+        class="ant-row css-dev-only-do-not-override-17seli4"
+        style="margin-left: -10px; margin-right: -10px;"
+      >
+        <div
+          class="ant-col ant-col-24 css-dev-only-do-not-override-17seli4"
+          style="padding-left: 10px; padding-right: 10px;"
+        >
+          <div
+            class="ant-card ant-card-type-inner css-dev-only-do-not-override-17seli4"
+          >
+            <div
+              class="ant-card-head"
+            >
+              <div
+                class="ant-card-head-wrapper"
+              >
+                <div
+                  class="ant-card-head-title"
+                >
+                  To-Do List
+                </div>
+              </div>
+            </div>
+            <div
+              class="ant-card-body"
+            >
+              <div
+                class="grid grid-cols-1 gap-2 sm:grid-cols-3 sm:mx-0"
+              >
+                <div
+                  class="flex justify-center col-span-1 text-sm text-gray-400 italic sm:col-span-3"
+                >
+                  No data
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`App component Adds a new task 2`] = `
+<div
+  class="w-full flex justify-center mt-10"
+>
+  <div
+    class="container"
+  >
+    <div
+      class="ant-row css-dev-only-do-not-override-17seli4"
+      style="margin-left: -10px; margin-right: -10px;"
+    >
+      <div
+        class="ant-col ant-col-24 css-dev-only-do-not-override-17seli4"
+        style="padding-left: 10px; padding-right: 10px;"
+      >
+        <div
+          class="ant-card ant-card-type-inner css-dev-only-do-not-override-17seli4"
+        >
+          <div
+            class="ant-card-head"
+          >
+            <div
+              class="ant-card-head-wrapper"
+            >
+              <div
+                class="ant-card-head-title"
+              >
+                Create New Task
+              </div>
+            </div>
+          </div>
+          <div
+            class="ant-card-body"
+          >
+            <div
+              class="grid grid-cols-1 gap-2 mx-5 sm:mx-0"
+            >
+              <div
+                class="space-y-2"
+              >
+                <h1>
+                  Due Date
+                </h1>
+                <div
+                  class="ant-picker ant-picker-outlined css-dev-only-do-not-override-17seli4 w-full"
+                >
+                  <div
+                    class="ant-picker-input"
+                  >
+                    <input
+                      aria-invalid="false"
+                      autocomplete="off"
+                      placeholder="Select date"
+                      size="12"
+                      value="2024-06-01"
+                    />
+                    <span
+                      class="ant-picker-suffix"
+                    >
+                      <span
+                        aria-label="calendar"
+                        class="anticon anticon-calendar"
+                        role="img"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          data-icon="calendar"
+                          fill="currentColor"
+                          focusable="false"
+                          height="1em"
+                          viewBox="64 64 896 896"
+                          width="1em"
+                        >
+                          <path
+                            d="M880 184H712v-64c0-4.4-3.6-8-8-8h-56c-4.4 0-8 3.6-8 8v64H384v-64c0-4.4-3.6-8-8-8h-56c-4.4 0-8 3.6-8 8v64H144c-17.7 0-32 14.3-32 32v664c0 17.7 14.3 32 32 32h736c17.7 0 32-14.3 32-32V216c0-17.7-14.3-32-32-32zm-40 656H184V460h656v380zM184 392V256h128v48c0 4.4 3.6 8 8 8h56c4.4 0 8-3.6 8-8v-48h256v48c0 4.4 3.6 8 8 8h56c4.4 0 8-3.6 8-8v-48h128v136H184z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <span
+                class="text-sm text-red-500 italic"
+              >
+                * reqiure
+              </span>
+              <div
+                class="space-y-2"
+              >
+                <h1>
+                  Description
+                </h1>
+                <textarea
+                  class="ant-input css-dev-only-do-not-override-17seli4 ant-input-outlined"
+                  placeholder="Description"
+                  rows="4"
+                >
+                  Task description
+                </textarea>
+              </div>
+              <span />
+              <div>
+                <button
+                  class="ant-btn css-dev-only-do-not-override-17seli4 ant-btn-primary"
+                  type="button"
+                >
+                  <span
+                    class="ant-btn-icon"
+                  >
+                    <span
+                      aria-label="plus"
+                      class="anticon anticon-plus"
+                      role="img"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        data-icon="plus"
+                        fill="currentColor"
+                        focusable="false"
+                        height="1em"
+                        viewBox="64 64 896 896"
+                        width="1em"
+                      >
+                        <path
+                          d="M482 152h60q8 0 8 8v704q0 8-8 8h-60q-8 0-8-8V160q0-8 8-8z"
+                        />
+                        <path
+                          d="M192 474h672q8 0 8 8v60q0 8-8 8H160q-8 0-8-8v-60q0-8 8-8z"
+                        />
+                      </svg>
+                    </span>
+                  </span>
+                  <span>
+                    Create
+                  </span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="mt-5 mx-5 sm:mx-0"
+    >
+      <div
+        class="ant-row css-dev-only-do-not-override-17seli4"
+        style="margin-left: -10px; margin-right: -10px;"
+      >
+        <div
+          class="ant-col ant-col-24 css-dev-only-do-not-override-17seli4"
+          style="padding-left: 10px; padding-right: 10px;"
+        >
+          <div
+            class="ant-card ant-card-type-inner css-dev-only-do-not-override-17seli4"
+          >
+            <div
+              class="ant-card-head"
+            >
+              <div
+                class="ant-card-head-wrapper"
+              >
+                <div
+                  class="ant-card-head-title"
+                >
+                  To-Do List
+                </div>
+              </div>
+            </div>
+            <div
+              class="ant-card-body"
+            >
+              <div
+                class="grid grid-cols-1 gap-2 sm:grid-cols-3 sm:mx-0"
+              >
+                <div
+                  class="flex justify-center col-span-1 text-sm text-gray-400 italic sm:col-span-3"
+                >
+                  No data
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`App component Adds a new task 3`] = `
+<div
+  class="w-full flex justify-center mt-10"
+>
+  <div
+    class="container"
+  >
+    <div
+      class="ant-row css-dev-only-do-not-override-17seli4"
+      style="margin-left: -10px; margin-right: -10px;"
+    >
+      <div
+        class="ant-col ant-col-24 css-dev-only-do-not-override-17seli4"
+        style="padding-left: 10px; padding-right: 10px;"
+      >
+        <div
+          class="ant-card ant-card-type-inner css-dev-only-do-not-override-17seli4"
+        >
+          <div
+            class="ant-card-head"
+          >
+            <div
+              class="ant-card-head-wrapper"
+            >
+              <div
+                class="ant-card-head-title"
+              >
+                Create New Task
+              </div>
+            </div>
+          </div>
+          <div
+            class="ant-card-body"
+          >
+            <div
+              class="grid grid-cols-1 gap-2 mx-5 sm:mx-0"
+            >
+              <div
+                class="space-y-2"
+              >
+                <h1>
+                  Due Date
+                </h1>
+                <div
+                  class="ant-picker ant-picker-outlined css-dev-only-do-not-override-17seli4 w-full"
+                >
+                  <div
+                    class="ant-picker-input"
+                  >
+                    <input
+                      aria-invalid="false"
+                      autocomplete="off"
+                      placeholder="Select date"
+                      size="12"
+                      value="2024-06-01"
+                    />
+                    <span
+                      class="ant-picker-suffix"
+                    >
+                      <span
+                        aria-label="calendar"
+                        class="anticon anticon-calendar"
+                        role="img"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          data-icon="calendar"
+                          fill="currentColor"
+                          focusable="false"
+                          height="1em"
+                          viewBox="64 64 896 896"
+                          width="1em"
+                        >
+                          <path
+                            d="M880 184H712v-64c0-4.4-3.6-8-8-8h-56c-4.4 0-8 3.6-8 8v64H384v-64c0-4.4-3.6-8-8-8h-56c-4.4 0-8 3.6-8 8v64H144c-17.7 0-32 14.3-32 32v664c0 17.7 14.3 32 32 32h736c17.7 0 32-14.3 32-32V216c0-17.7-14.3-32-32-32zm-40 656H184V460h656v380zM184 392V256h128v48c0 4.4 3.6 8 8 8h56c4.4 0 8-3.6 8-8v-48h256v48c0 4.4 3.6 8 8 8h56c4.4 0 8-3.6 8-8v-48h128v136H184z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <span
+                class="text-sm text-red-500 italic"
+              >
+                * reqiure
+              </span>
+              <div
+                class="space-y-2"
+              >
+                <h1>
+                  Description
+                </h1>
+                <textarea
+                  class="ant-input css-dev-only-do-not-override-17seli4 ant-input-outlined"
+                  placeholder="Description"
+                  rows="4"
+                >
+                  Task description
+                </textarea>
+              </div>
+              <span />
+              <div>
+                <button
+                  class="ant-btn css-dev-only-do-not-override-17seli4 ant-btn-primary"
+                  type="button"
+                >
+                  <span
+                    class="ant-btn-icon"
+                  >
+                    <span
+                      aria-label="plus"
+                      class="anticon anticon-plus"
+                      role="img"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        data-icon="plus"
+                        fill="currentColor"
+                        focusable="false"
+                        height="1em"
+                        viewBox="64 64 896 896"
+                        width="1em"
+                      >
+                        <path
+                          d="M482 152h60q8 0 8 8v704q0 8-8 8h-60q-8 0-8-8V160q0-8 8-8z"
+                        />
+                        <path
+                          d="M192 474h672q8 0 8 8v60q0 8-8 8H160q-8 0-8-8v-60q0-8 8-8z"
+                        />
+                      </svg>
+                    </span>
+                  </span>
+                  <span>
+                    Create
+                  </span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="mt-5 mx-5 sm:mx-0"
+    >
+      <div
+        class="ant-row css-dev-only-do-not-override-17seli4"
+        style="margin-left: -10px; margin-right: -10px;"
+      >
+        <div
+          class="ant-col ant-col-24 css-dev-only-do-not-override-17seli4"
+          style="padding-left: 10px; padding-right: 10px;"
+        >
+          <div
+            class="ant-card ant-card-type-inner css-dev-only-do-not-override-17seli4"
+          >
+            <div
+              class="ant-card-head"
+            >
+              <div
+                class="ant-card-head-wrapper"
+              >
+                <div
+                  class="ant-card-head-title"
+                >
+                  To-Do List
+                </div>
+              </div>
+            </div>
+            <div
+              class="ant-card-body"
+            >
+              <div
+                class="grid grid-cols-1 gap-2 sm:grid-cols-3 sm:mx-0"
+              >
+                <div
+                  class="flex justify-center col-span-1 text-sm text-gray-400 italic sm:col-span-3"
+                >
+                  No data
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`App component Adds a new task 4`] = `
+<div
+  class="w-full flex justify-center mt-10"
+>
+  <div
+    class="container"
+  >
+    <div
+      class="ant-row css-dev-only-do-not-override-17seli4"
+      style="margin-left: -10px; margin-right: -10px;"
+    >
+      <div
+        class="ant-col ant-col-24 css-dev-only-do-not-override-17seli4"
+        style="padding-left: 10px; padding-right: 10px;"
+      >
+        <div
+          class="ant-card ant-card-type-inner css-dev-only-do-not-override-17seli4"
+        >
+          <div
+            class="ant-card-head"
+          >
+            <div
+              class="ant-card-head-wrapper"
+            >
+              <div
+                class="ant-card-head-title"
+              >
+                Create New Task
+              </div>
+            </div>
+          </div>
+          <div
+            class="ant-card-body"
+          >
+            <div
+              class="grid grid-cols-1 gap-2 mx-5 sm:mx-0"
+            >
+              <div
+                class="space-y-2"
+              >
+                <h1>
+                  Due Date
+                </h1>
+                <div
+                  class="ant-picker ant-picker-outlined css-dev-only-do-not-override-17seli4 w-full"
+                >
+                  <div
+                    class="ant-picker-input"
+                  >
+                    <input
+                      aria-invalid="false"
+                      autocomplete="off"
+                      placeholder="Select date"
+                      size="12"
+                      value="2024-06-01"
+                    />
+                    <span
+                      class="ant-picker-suffix"
+                    >
+                      <span
+                        aria-label="calendar"
+                        class="anticon anticon-calendar"
+                        role="img"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          data-icon="calendar"
+                          fill="currentColor"
+                          focusable="false"
+                          height="1em"
+                          viewBox="64 64 896 896"
+                          width="1em"
+                        >
+                          <path
+                            d="M880 184H712v-64c0-4.4-3.6-8-8-8h-56c-4.4 0-8 3.6-8 8v64H384v-64c0-4.4-3.6-8-8-8h-56c-4.4 0-8 3.6-8 8v64H144c-17.7 0-32 14.3-32 32v664c0 17.7 14.3 32 32 32h736c17.7 0 32-14.3 32-32V216c0-17.7-14.3-32-32-32zm-40 656H184V460h656v380zM184 392V256h128v48c0 4.4 3.6 8 8 8h56c4.4 0 8-3.6 8-8v-48h256v48c0 4.4 3.6 8 8 8h56c4.4 0 8-3.6 8-8v-48h128v136H184z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <span
+                class="text-sm text-red-500 italic"
+              >
+                * reqiure
+              </span>
+              <div
+                class="space-y-2"
+              >
+                <h1>
+                  Description
+                </h1>
+                <textarea
+                  class="ant-input css-dev-only-do-not-override-17seli4 ant-input-outlined"
+                  placeholder="Description"
+                  rows="4"
+                >
+                  Task description
+                </textarea>
+              </div>
+              <span />
+              <div>
+                <button
+                  class="ant-btn css-dev-only-do-not-override-17seli4 ant-btn-primary"
+                  type="button"
+                >
+                  <span
+                    class="ant-btn-icon"
+                  >
+                    <span
+                      aria-label="plus"
+                      class="anticon anticon-plus"
+                      role="img"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        data-icon="plus"
+                        fill="currentColor"
+                        focusable="false"
+                        height="1em"
+                        viewBox="64 64 896 896"
+                        width="1em"
+                      >
+                        <path
+                          d="M482 152h60q8 0 8 8v704q0 8-8 8h-60q-8 0-8-8V160q0-8 8-8z"
+                        />
+                        <path
+                          d="M192 474h672q8 0 8 8v60q0 8-8 8H160q-8 0-8-8v-60q0-8 8-8z"
+                        />
+                      </svg>
+                    </span>
+                  </span>
+                  <span>
+                    Create
+                  </span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="mt-5 mx-5 sm:mx-0"
+    >
+      <div
+        class="ant-row css-dev-only-do-not-override-17seli4"
+        style="margin-left: -10px; margin-right: -10px;"
+      >
+        <div
+          class="ant-col ant-col-24 css-dev-only-do-not-override-17seli4"
+          style="padding-left: 10px; padding-right: 10px;"
+        >
+          <div
+            class="ant-card ant-card-type-inner css-dev-only-do-not-override-17seli4"
+          >
+            <div
+              class="ant-card-head"
+            >
+              <div
+                class="ant-card-head-wrapper"
+              >
+                <div
+                  class="ant-card-head-title"
+                >
+                  To-Do List
+                </div>
+              </div>
+            </div>
+            <div
+              class="ant-card-body"
+            >
+              <div
+                class="grid grid-cols-1 gap-2 sm:grid-cols-3 sm:mx-0"
+              >
+                <div
+                  class="flex justify-center col-span-1 text-sm text-gray-400 italic sm:col-span-3"
+                >
+                  No data
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`App component Adds a new task 5`] = `
+<div
+  class="w-full flex justify-center mt-10"
+>
+  <div
+    class="container"
+  >
+    <div
+      class="ant-row css-dev-only-do-not-override-17seli4"
+      style="margin-left: -10px; margin-right: -10px;"
+    >
+      <div
+        class="ant-col ant-col-24 css-dev-only-do-not-override-17seli4"
+        style="padding-left: 10px; padding-right: 10px;"
+      >
+        <div
+          class="ant-card ant-card-type-inner css-dev-only-do-not-override-17seli4"
+        >
+          <div
+            class="ant-card-head"
+          >
+            <div
+              class="ant-card-head-wrapper"
+            >
+              <div
+                class="ant-card-head-title"
+              >
+                Create New Task
+              </div>
+            </div>
+          </div>
+          <div
+            class="ant-card-body"
+          >
+            <div
+              class="grid grid-cols-1 gap-2 mx-5 sm:mx-0"
+            >
+              <div
+                class="space-y-2"
+              >
+                <h1>
+                  Due Date
+                </h1>
+                <div
+                  class="ant-picker ant-picker-outlined css-dev-only-do-not-override-17seli4 w-full"
+                >
+                  <div
+                    class="ant-picker-input"
+                  >
+                    <input
+                      aria-invalid="false"
+                      autocomplete="off"
+                      placeholder="Select date"
+                      size="12"
+                      value="2024-06-01"
+                    />
+                    <span
+                      class="ant-picker-suffix"
+                    >
+                      <span
+                        aria-label="calendar"
+                        class="anticon anticon-calendar"
+                        role="img"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          data-icon="calendar"
+                          fill="currentColor"
+                          focusable="false"
+                          height="1em"
+                          viewBox="64 64 896 896"
+                          width="1em"
+                        >
+                          <path
+                            d="M880 184H712v-64c0-4.4-3.6-8-8-8h-56c-4.4 0-8 3.6-8 8v64H384v-64c0-4.4-3.6-8-8-8h-56c-4.4 0-8 3.6-8 8v64H144c-17.7 0-32 14.3-32 32v664c0 17.7 14.3 32 32 32h736c17.7 0 32-14.3 32-32V216c0-17.7-14.3-32-32-32zm-40 656H184V460h656v380zM184 392V256h128v48c0 4.4 3.6 8 8 8h56c4.4 0 8-3.6 8-8v-48h256v48c0 4.4 3.6 8 8 8h56c4.4 0 8-3.6 8-8v-48h128v136H184z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <span
+                class="text-sm text-red-500 italic"
+              >
+                * reqiure
+              </span>
+              <div
+                class="space-y-2"
+              >
+                <h1>
+                  Description
+                </h1>
+                <textarea
+                  class="ant-input css-dev-only-do-not-override-17seli4 ant-input-outlined"
+                  placeholder="Description"
+                  rows="4"
+                >
+                  Task description
+                </textarea>
+              </div>
+              <span />
+              <div>
+                <button
+                  class="ant-btn css-dev-only-do-not-override-17seli4 ant-btn-primary"
+                  type="button"
+                >
+                  <span
+                    class="ant-btn-icon"
+                  >
+                    <span
+                      aria-label="plus"
+                      class="anticon anticon-plus"
+                      role="img"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        data-icon="plus"
+                        fill="currentColor"
+                        focusable="false"
+                        height="1em"
+                        viewBox="64 64 896 896"
+                        width="1em"
+                      >
+                        <path
+                          d="M482 152h60q8 0 8 8v704q0 8-8 8h-60q-8 0-8-8V160q0-8 8-8z"
+                        />
+                        <path
+                          d="M192 474h672q8 0 8 8v60q0 8-8 8H160q-8 0-8-8v-60q0-8 8-8z"
+                        />
+                      </svg>
+                    </span>
+                  </span>
+                  <span>
+                    Create
+                  </span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="mt-5 mx-5 sm:mx-0"
+    >
+      <div
+        class="ant-row css-dev-only-do-not-override-17seli4"
+        style="margin-left: -10px; margin-right: -10px;"
+      >
+        <div
+          class="ant-col ant-col-24 css-dev-only-do-not-override-17seli4"
+          style="padding-left: 10px; padding-right: 10px;"
+        >
+          <div
+            class="ant-card ant-card-type-inner css-dev-only-do-not-override-17seli4"
+          >
+            <div
+              class="ant-card-head"
+            >
+              <div
+                class="ant-card-head-wrapper"
+              >
+                <div
+                  class="ant-card-head-title"
+                >
+                  To-Do List
+                </div>
+              </div>
+            </div>
+            <div
+              class="ant-card-body"
+            >
+              <div
+                class="grid grid-cols-1 gap-2 sm:grid-cols-3 sm:mx-0"
+              >
+                <div
+                  class="flex justify-center col-span-1 text-sm text-gray-400 italic sm:col-span-3"
+                >
+                  No data
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`App component Adds a new task 6`] = `
+<div
+  class="w-full flex justify-center mt-10"
+>
+  <div
+    class="container"
+  >
+    <div
+      class="ant-row css-dev-only-do-not-override-17seli4"
+      style="margin-left: -10px; margin-right: -10px;"
+    >
+      <div
+        class="ant-col ant-col-24 css-dev-only-do-not-override-17seli4"
+        style="padding-left: 10px; padding-right: 10px;"
+      >
+        <div
+          class="ant-card ant-card-type-inner css-dev-only-do-not-override-17seli4"
+        >
+          <div
+            class="ant-card-head"
+          >
+            <div
+              class="ant-card-head-wrapper"
+            >
+              <div
+                class="ant-card-head-title"
+              >
+                Create New Task
+              </div>
+            </div>
+          </div>
+          <div
+            class="ant-card-body"
+          >
+            <div
+              class="grid grid-cols-1 gap-2 mx-5 sm:mx-0"
+            >
+              <div
+                class="space-y-2"
+              >
+                <h1>
+                  Due Date
+                </h1>
+                <div
+                  class="ant-picker ant-picker-outlined css-dev-only-do-not-override-17seli4 w-full"
+                >
+                  <div
+                    class="ant-picker-input"
+                  >
+                    <input
+                      aria-invalid="false"
+                      autocomplete="off"
+                      placeholder="Select date"
+                      size="12"
+                      value="2024-06-01"
+                    />
+                    <span
+                      class="ant-picker-suffix"
+                    >
+                      <span
+                        aria-label="calendar"
+                        class="anticon anticon-calendar"
+                        role="img"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          data-icon="calendar"
+                          fill="currentColor"
+                          focusable="false"
+                          height="1em"
+                          viewBox="64 64 896 896"
+                          width="1em"
+                        >
+                          <path
+                            d="M880 184H712v-64c0-4.4-3.6-8-8-8h-56c-4.4 0-8 3.6-8 8v64H384v-64c0-4.4-3.6-8-8-8h-56c-4.4 0-8 3.6-8 8v64H144c-17.7 0-32 14.3-32 32v664c0 17.7 14.3 32 32 32h736c17.7 0 32-14.3 32-32V216c0-17.7-14.3-32-32-32zm-40 656H184V460h656v380zM184 392V256h128v48c0 4.4 3.6 8 8 8h56c4.4 0 8-3.6 8-8v-48h256v48c0 4.4 3.6 8 8 8h56c4.4 0 8-3.6 8-8v-48h128v136H184z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <span
+                class="text-sm text-red-500 italic"
+              >
+                * reqiure
+              </span>
+              <div
+                class="space-y-2"
+              >
+                <h1>
+                  Description
+                </h1>
+                <textarea
+                  class="ant-input css-dev-only-do-not-override-17seli4 ant-input-outlined"
+                  placeholder="Description"
+                  rows="4"
+                >
+                  Task description
+                </textarea>
+              </div>
+              <span />
+              <div>
+                <button
+                  class="ant-btn css-dev-only-do-not-override-17seli4 ant-btn-primary"
+                  type="button"
+                >
+                  <span
+                    class="ant-btn-icon"
+                  >
+                    <span
+                      aria-label="plus"
+                      class="anticon anticon-plus"
+                      role="img"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        data-icon="plus"
+                        fill="currentColor"
+                        focusable="false"
+                        height="1em"
+                        viewBox="64 64 896 896"
+                        width="1em"
+                      >
+                        <path
+                          d="M482 152h60q8 0 8 8v704q0 8-8 8h-60q-8 0-8-8V160q0-8 8-8z"
+                        />
+                        <path
+                          d="M192 474h672q8 0 8 8v60q0 8-8 8H160q-8 0-8-8v-60q0-8 8-8z"
+                        />
+                      </svg>
+                    </span>
+                  </span>
+                  <span>
+                    Create
+                  </span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="mt-5 mx-5 sm:mx-0"
+    >
+      <div
+        class="ant-row css-dev-only-do-not-override-17seli4"
+        style="margin-left: -10px; margin-right: -10px;"
+      >
+        <div
+          class="ant-col ant-col-24 css-dev-only-do-not-override-17seli4"
+          style="padding-left: 10px; padding-right: 10px;"
+        >
+          <div
+            class="ant-card ant-card-type-inner css-dev-only-do-not-override-17seli4"
+          >
+            <div
+              class="ant-card-head"
+            >
+              <div
+                class="ant-card-head-wrapper"
+              >
+                <div
+                  class="ant-card-head-title"
+                >
+                  To-Do List
+                </div>
+              </div>
+            </div>
+            <div
+              class="ant-card-body"
+            >
+              <div
+                class="grid grid-cols-1 gap-2 sm:grid-cols-3 sm:mx-0"
+              >
+                <div
+                  class="flex justify-center col-span-1 text-sm text-gray-400 italic sm:col-span-3"
+                >
+                  No data
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
